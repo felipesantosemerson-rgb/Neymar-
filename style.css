@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #009c3b, #ffdf00, #002776);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.8);
+    border: 3px solid #ffdf00;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #ffdf00;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #e0e0e0;
+}
+
+.btn-prompt {
+    background-color: #009c3b;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 156, 59, 0.4);
+    margin-top: 20px;
+}
+
+.btn-prompt:hover {
+    background-color: #ffdf00;
+    color: #002776;
+    transform: scale(1.05);
+}
+
+.resultado {
+    margin-top: 25px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 5px solid #ffdf00;
+    border-radius: 5px;
+    display: none;
+    font-style: italic;
+}
